@@ -1155,7 +1155,7 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-	/* text-transform: uppercase; */
+	font-style: italic;
 	font-size: 14px;
     letter-spacing: 1px;
     font-weight: 300;
