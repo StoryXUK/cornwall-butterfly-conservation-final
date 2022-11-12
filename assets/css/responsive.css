@@ -3,6 +3,10 @@
 }
 
 @media (max-width:1199px){
+	.desktop-only {display: none;}
+	}
+
+@media (max-width:1199px){
 	.padding-left {padding-left: 0px;}
 	.move-up {position: absolute; top: 0px}
 }
