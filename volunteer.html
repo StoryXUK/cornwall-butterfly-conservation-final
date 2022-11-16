@@ -786,10 +786,23 @@
               <div class="post-img"> <img class="img-responsive" src="assets/images/donate.jpg" alt="" /> </div>
               <div class="post-info all-padding-40">
                 <h3><a href="blog-grid.html">Donate</a></h3>
-                <p>Every penny counts in the struggle to preserve habitats in the UK for our native species. Help make
-                  our conservation work happen.</p>
+                <p>Every penny counts if you would like to donate to the Cornwall Branch then please click below.</p>
                 <hr>
-                <a class="readmore" href="#"><span>Read More</span></a>
+                <div id="donate-button-container">
+                  <div id="donate-button"></div>
+                  <script src=https://www.paypalobjects.com/donate/sdk/donate-sdk.js charset="UTF-8"></script>
+                  <script>
+                  PayPal.Donation.Button({
+                  env:'production',
+                  hosted_button_id:'T3SWL247XWQMW',
+                  image: {
+                  src:'https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif',
+                  alt:'Donate with PayPal button',
+                  title:'PayPal - The safer, easier way to pay online!',
+                  }
+                  }).render('#donate-button');
+                  </script>
+                  </div>
               </div>
             </div>
           </div>
