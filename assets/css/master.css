@@ -109,6 +109,10 @@ iframe, embed, object {max-width: 100%;}
 
 
 .text-shadow {text-shadow: 1px 1px 2px black;}
+
+
+
+.active {border-width:3px; border-style:solid; border-color:#FF0000;}
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
@@ -129,6 +133,7 @@ a {text-decoration: none;color:#212121;}
 a:hover, a:focus, a:active {outline: none;text-decoration: underline;color:#1d5ade;}
 ul {list-style: disc;}
 li > ul, li > ol {padding: 0;margin-left: 15px;}
+li:hover, li:focus, li:active {outline: none;text-decoration: underline;color:#1d5ade;}
 figure {margin-bottom: 6px;position: relative;}
 img {height: auto;max-width: 100%;}
 .mark, mark{background-color:#1d5ade;color:#fff;}
