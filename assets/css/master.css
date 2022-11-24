@@ -104,7 +104,7 @@ iframe, embed, object {max-width: 100%;}
 
 
 
-.active {border-width:3px; border-style:solid; border-color:#FF0000;}
+.active {text-decoration: underline;}
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
