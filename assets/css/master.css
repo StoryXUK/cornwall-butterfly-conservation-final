@@ -1123,6 +1123,14 @@ section.gradient-block .team-slider .slick-dots li.slick-active button {
     width: 100%;
     margin-top: -75px;
 }
+
+.portfolio-wrap-location {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  margin-top: -75px;
+}
 .portfolio-description .portfolio-title,
 .portfolio-description .links {
     position: relative;
