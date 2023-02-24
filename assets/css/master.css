@@ -4451,7 +4451,8 @@ form.register {
 /* imghvr-fade-in-left
    ----------------------------- */
 .imghvr-fade-in-left figcaption { -webkit-transform: translate(-15%, 0); -moz-transform: translate(-15%, 0); -ms-transform: translate(-15%, 0); -o-transform: translate(-15%, 0); transform: translate(-15%, 0); }
-/* imghvr-fade-in-right
+
+
    ----------------------------- */
 .imghvr-fade-in-right figcaption { -webkit-transform: translate(15%, 0); -moz-transform: translate(15%, 0); -ms-transform: translate(15%, 0); -o-transform: translate(15%, 0); transform: translate(15%, 0); }
 /* imghvr-push-*
@@ -4738,6 +4739,105 @@ form.register {
 .imghvr-blur:hover > img { -webkit-filter: blur(30px); filter: blur(30px); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); opacity: 0; }
 .imghvr-blur:hover figcaption { opacity: 1; -webkit-transition-delay: 0.21s; -moz-transition-delay: 0.21s; transition-delay: 0.21s; }
 
+
+
+
+/* Text delay */
+
+.fade-in .box{
+  height: 260px;
+  width: 160px;
+}
+
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 4.1s;
+  -moz-animation-delay: 4.1s;
+  animation-delay: 4.1s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 7.1s;
+  -moz-animation-delay: 7.1s;
+  animation-delay: 7.1s;
+}
+
+
+.fade-out {
+  animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
 
 /* Custom Styles */
 
