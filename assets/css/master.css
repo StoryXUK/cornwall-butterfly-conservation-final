@@ -4770,21 +4770,21 @@ form.register {
 }
 
 .fade-in.one {
-  -webkit-animation-delay: 7.5s;
-  -moz-animation-delay: 7.5s;
-  animation-delay: 7.5s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 .fade-in.two {
-  -webkit-animation-delay: 9.1s;
-  -moz-animation-delay: 9.1s;
-  animation-delay: 9.1s;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .fade-in.three {
-  -webkit-animation-delay: 20s;
-  -moz-animation-delay: 20s;
-  animation-delay: 20s;
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
 }
 
 
