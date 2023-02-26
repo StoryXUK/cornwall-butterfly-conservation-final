@@ -105,6 +105,8 @@ iframe, embed, object {max-width: 100%;}
 
 
 .active {text-decoration: underline;}
+
+.no-number {list-style-type: disc;}
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
