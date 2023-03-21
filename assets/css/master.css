@@ -3,6 +3,7 @@
 [ CSS TABLE CONTENT ]
 ------------------------------------
     1.0 - General
+    1.1 - Table
     2.0 - Typography
     3.0 - Global Style
     4.0 - Navigation
@@ -107,6 +108,35 @@ iframe, embed, object {max-width: 100%;}
 .active {text-decoration: underline;}
 
 .no-number {list-style-type: disc;}
+
+
+
+/* Table */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/*tr:nth-child(even) {
+  background-color: #faf6f6;
+}*/
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+
+
+
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {color: #212121;margin: 20px 0 10px 0;font-style: normal;font-family: 'Montserrat', sans-serif;}
